@@ -19,6 +19,7 @@ For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return
 
 def find_contiguous_elem_sums_to_k(array,k):
     
+    # define a queue like data structure, pop from front
     contiguous_elem=[]
     
     sum_=0
